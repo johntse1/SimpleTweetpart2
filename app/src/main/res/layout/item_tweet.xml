@@ -3,12 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    >
 
     <ImageView
         android:id="@+id/ivProfileImage"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:layout_marginStart="0dp"
         android:layout_marginTop="0dp"
         tools:srcCompat="@tools:sample/avatars" />
@@ -35,5 +36,18 @@
         android:layout_toEndOf="@+id/ivProfileImage"
         tools:text="This is the substance of the text"
         android:fontFamily="serif"
-        android:textSize="14sp"/>
+        android:textSize="14sp"
+        android:autoLink="all"/>
+
+    <TextView
+        android:id="@+id/tvTimestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_centerVertical="false"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="3dp"
+        tools:text="Test" />
+
 </RelativeLayout>

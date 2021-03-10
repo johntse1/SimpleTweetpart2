@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".TimeLineActivity"
-    android:background="@android:color/holo_purple">
+    android:background="@android:color/holo_blue_light">
 <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
     android:id="@+id/swipeContainer"
     android:layout_width="match_parent"
